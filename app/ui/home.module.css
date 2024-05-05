@@ -1,0 +1,11 @@
+.shape {
+  height: 0;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid black;
+}
+/* The .module is very important because it is saying that we will be using 
+css modules.
+In the page.tsx, we never have to worry about the styles getting mixed but, because 
+this gets hashed automatically*/
